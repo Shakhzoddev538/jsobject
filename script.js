@@ -348,18 +348,18 @@
 // console.log(a, b);
 
 let  parol = 7777; 
-let  kirishlar = 0; 
+let  vxod = 0; 
 
 do {
   let pwd = +prompt("password please");
-  kirishlar++;
+  vxod++;
 
   if (pwd === parol) {
     alert('xush omadet')
     break; // Tsikldan chiqamiz
-  } else if (kirishlar < 3) {
+  } else if (vxod < 3) {
     alert('damata gir')
   } else {
     alert('damata gir')
   }
-} while (kirishlar < 3 || pwd !== togriParol);
+} while (vxod < 3 || pwd !== togriParol);
