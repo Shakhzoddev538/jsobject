@@ -71,15 +71,28 @@
 
 // console.table(total);
 
-let car__total = 10000
-let car__broken = 5052
+// let car__total = 10000
+// let car__broken = 5052
 
 
-function hello(total, broken) {
-    let broken__prosent = broken * 100 / total;
-    return `broken  ${broken__prosent}%;`
-    }
+// function hello(total, broken) {
+//     let broken__prosent = broken * 100 / total;
+//     return `broken  ${broken__prosent}%;`
+//     }
     
-    let result = hello(car__total, car__broken);
-    console.table(result);
-    console.table(car__total);
+//     let result = hello(car__total, car__broken);
+//     console.table(result);
+//     console.table(car__total);
+
+let n = +prompt("число пж")
+
+let  fibonachi = [0, 1];
+for (let i = 2; i < n; i++) {
+    fibonachi[i] = fibonachi[i - 1] + fibonachi[i - 2]
+}
+
+for (let j = 0; j < n; j++) {
+  console.log(fibonachi[j]);
+}
+
+//Извините Далер ака я не смог 2 задание и не понял как зделать его
